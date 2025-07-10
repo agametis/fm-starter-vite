@@ -30,7 +30,6 @@
     "vite-plugin-singlefile": "^2.3.0"
   },
   "dependencies": {
-    "clipboardy": "^4.0.0",
     "fm-gofer": "^1.10.0"
   },
   "engines": {
