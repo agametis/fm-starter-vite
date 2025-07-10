@@ -8,7 +8,7 @@ const __dirname = import.meta.dirname;
 
 const {uploadScript, file, server, widgetName} = fmConfig;
 
-// falls nicht gegewünschte FM Version startet
+// falls nicht die gewünschte FM Version startet
 // kann man das fmp-Protokoll hier anpassen:
 // z.B. fmp21 für FileMaker 21
 const fileUrl = `fmp://${server}/${file}?script=${uploadScript}&param=`;
