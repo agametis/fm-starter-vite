@@ -23,6 +23,18 @@ Dieses Projekt ist ein JavaScript-Starter-Template für die Entwicklung von Web-
 npm install
 ```
 
+## Erste Schritte
+
+Die Hauptanwendung befindet sich in der Datei `main.js`. Hier beginnen Sie mit der Programmierung Ihrer Web-Anwendung. Diese Datei ist der Einstiegspunkt Ihrer Anwendung und wird automatisch beim Start geladen.
+
+Die wichtigsten Dateien und Ordner sind:
+- `index.html` - HTML-Grundgerüst
+- `src/main.js` - Hauptanwendungscode (Einstiegspunkt)
+- `src/style.css` - Datei für CSS/Styles
+- `fm/` - Enthält Dateien für die FileMaker-Integration
+
+Um mit der Entwicklung zu beginnen, öffnen Sie die `main.js` Datei und fügen Sie Ihren Code dort ein. Die Anwendung verwendet moderne JavaScript-Module, die Sie einfach importieren können.
+
 ## Entwicklung
 
 Um die Anwendung im Entwicklungsmodus zu starten:
