@@ -59,7 +59,7 @@ npm run deploy-to-fm
 
 # FileMaker JavaScript Starter
 
-Dieses Projekt ist ein JavaScript-Starter-Template für die Entwicklung von Web-Anwendungen, die in FileMaker integriert werden können. Es nutzt Vite als Build-Tool und [fm-gofer](https://github.com/jwillinghalpern/fm-gofer) für die Kommunikation mit FileMaker und bietet eine einfache Möglichkeit, Web-Inhalte in FileMaker einzubinden.
+Dieses Projekt ist ein JavaScript-Starter-Template für die Entwicklung von Web-Anwendungen, die in FileMaker integriert werden können. Es nutzt Vite als Build-Tool und fm-gofer für die Kommunikation mit FileMaker und bietet eine einfache Möglichkeit, Web-Inhalte in FileMaker einzubinden.
 
 ## Funktionen
 
