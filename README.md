@@ -1,10 +1,69 @@
 # FileMaker JavaScript Starter
 
+(For the German version, [please scroll down](#filemaker-javascript-starter-1).)
+
+This project is a JavaScript starter template for developing web applications that can be integrated into FileMaker. It uses Vite as a build tool and fm-gofer for communication with FileMaker, providing an easy way to embed web content in FileMaker.
+
+## Features
+
+- Modern web development with [Vite](https://vite.dev/)
+- Easy integration with FileMaker via the [fm-gofer](https://github.com/jwillinghalpern/fm-gofer) library
+- Automatic creation of a single HTML file for easy deployment in FileMaker
+- Example project for bidirectional communication between the web application and FileMaker
+
+## Prerequisites
+
+- Node.js (version 20.11 or higher)
+- FileMaker Pro (version 19.4 or higher)
+
+## Installation
+
+1. Clone or download the repository
+2. Install the dependencies:
+
+```bash
+npm install
+```
+
+## Getting Started
+
+The main application is in the `main.js` file. This is where you start programming your web application. This file is the entry point of your application and is loaded automatically on startup.
+
+The most important files and folders are:
+- `index.html` - Basic HTML structure
+- `src/main.js` - Main application code (entry point)
+- `src/style.css` - File for CSS/styles
+- `fm/` - Contains files for FileMaker integration
+
+To start development, open the `main.js` file and add your code there. The application uses modern JavaScript modules that you can easily import.
+
+## Development
+
+To start the application in development mode:
+
+```bash
+npm run dev
+```
+
+This starts a local development server with hot-reload functionality. The application can then be used directly in the FileMaker file if development mode is also enabled there.
+
+## Build and Deployment
+
+To build the application and embed it in FileMaker:
+
+```bash
+npm run deploy-to-fm
+```
+
+---
+
+# FileMaker JavaScript Starter
+
 Dieses Projekt ist ein JavaScript-Starter-Template für die Entwicklung von Web-Anwendungen, die in FileMaker integriert werden können. Es nutzt Vite als Build-Tool und [fm-gofer](https://github.com/jwillinghalpern/fm-gofer) für die Kommunikation mit FileMaker und bietet eine einfache Möglichkeit, Web-Inhalte in FileMaker einzubinden.
 
 ## Funktionen
 
-- Moderne Web-Entwicklung mit Vite
+- Moderne Web-Entwicklung mit [Vite](https://vite.dev/)
 - Einfache Integration mit FileMaker über die [fm-gofer](https://github.com/jwillinghalpern/fm-gofer) Bibliothek
 - Automatische Erstellung einer einzigen HTML-Datei für einfaches Deployment in FileMaker
 - Beispielprojekt für bidirektionale Kommunikation zwischen Web-Anwendung und FileMaker
