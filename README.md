@@ -1,6 +1,6 @@
 # FileMaker JavaScript Starter
 
-(For the German version, [please scroll down](#filemaker-javascript-starter-1).)
+(For the German version, [please scroll down](#filemaker-javascript-starter-deutsch).)
 
 This project is a JavaScript starter template for developing web applications that can be integrated into FileMaker. It uses Vite as a build tool and fm-gofer for communication with FileMaker, providing an easy way to embed web content in FileMaker.
 
@@ -57,7 +57,7 @@ npm run deploy-to-fm
 
 ---
 
-# FileMaker JavaScript Starter
+# FileMaker JavaScript Starter (deutsch)
 
 Dieses Projekt ist ein JavaScript-Starter-Template für die Entwicklung von Web-Anwendungen, die in FileMaker integriert werden können. Es nutzt Vite als Build-Tool und fm-gofer für die Kommunikation mit FileMaker und bietet eine einfache Möglichkeit, Web-Inhalte in FileMaker einzubinden.
 
