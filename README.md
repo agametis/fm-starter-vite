@@ -153,23 +153,6 @@ Die `fmConfig`-Datei enthält folgende wichtige Variablen:
 Diese Einstellungen müssen mit Ihrer FileMaker-Umgebung übereinstimmen, damit die Integration funktioniert.
 
 
-## Skript-Generierung
-
-Dieses Projekt enthält praktische Funktionen zur automatischen Generierung von FileMaker-Skriptschritten. Mit den Funktionen in `fm/fmGenerateScriptSteps.js` können Sie sogar direkt Skript-Schritte für FileMaker generieren und in die Zwischenablage kopieren.
-
-### Verfügbare Funktionen:
-
-- **`copyToClipboard(data)`**: Kopiert Text plattformübergreifend in die Zwischenablage (macOS und Windows)
-- **`convertClipboardToFM()`**: Konvertiert Zwischenablage-Inhalte in das FileMaker-XML-Format für direktes Einfügen in FileMaker Pro
-
-Die Funktionen unterstützen sowohl macOS als auch Windows und ermöglichen es, generierte XML-Skriptschritte direkt in FileMaker Pro einzufügen.
-
-Mit dem folgenden Befehl können FileMaker-Skriptschritte generiert werden:
-
-```bash
-npm run generate-script-steps
-```
-
 ## Credits
 
 - [js-dev-environment](https://github.com/integrating-magic/js-dev-environment)
